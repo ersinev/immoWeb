@@ -16,6 +16,6 @@ Photo hosting: Cloud Storage for Firebase<br>
 Front-end hosting: Netlify<br>
 Back-end hosting: Render
 
-Project Link: https://github.com/vhande/Immo-Project-Frontend<br>
+
 ![Screenshot (14)](https://user-images.githubusercontent.com/66500873/215929290-8756659f-a98b-4a4d-a616-caf7ea85463d.png)
 
