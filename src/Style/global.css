@@ -1,0 +1,364 @@
+* {
+  color: var(--blue);
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --blue: #182747;
+  --green: #78938a;
+  
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 100%;
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+  padding-bottom: 15rem;
+  padding-top: 5rem;
+}
+
+
+.footer {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.homepage {
+  width: 100vw;
+}
+
+.navbar {
+  border-bottom: 0.1em solid var(--blue);
+}
+
+.nav-link {
+  color: var(--blue) !important;
+}
+
+.search-container {
+  max-width: 700px;
+}
+
+.pills {
+  width: 9em;
+}
+
+.agency-logo {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.city {
+  height: 5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  font-size: 1rem;
+  text-shadow: 1px 1px black;
+  color: #fff;
+  width: 80%;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.immo-agency {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  border-color: var(--green) !important;
+  background-color: #f8f9fa !important;
+  margin: 3rem;
+  max-height: 30rem;
+  max-width: 30rem;
+}
+.active>.page-link {
+  background-color:var(--blue)
+}
+.pagination {
+  --bs-pagination-color: var(--blue);
+}
+.nav-pills .nav-link.active {
+  background-color: var(--blue);
+  color: white !important;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+  box-shadow: 0px 0px 0px 1px var(--blue) !important;
+  border: 2px, solid, var(--blue)  !important; 
+}
+
+.btn {
+  background-color: var(--blue);
+  border-radius: var(--bs-border-radius-xl) !important;
+}
+
+
+
+.btnad:active {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1) !important;
+}
+.loginbtn {
+  color: var(--blue) !important;
+}
+
+.dropdown-toggle::after {
+  border: none;
+}
+
+
+
+.card-img {
+  width: 100%;
+  height: 25vh;
+  object-fit: cover;
+}
+
+.modal-content {
+  width: auto;
+  border-radius: 20px;
+}
+
+.btn-close{
+  
+  position: absolute !important;
+  top: 15px;
+  right: 15px;
+}
+
+.no-radius {
+  border-radius: 0 !important;
+}
+
+.text-break {
+word-break: inherit;
+line-height: 1.6rem;
+overflow: hidden;
+display: -webkit-box; 
+-webkit-line-clamp: 1;
+-webkit-box-orient: vertical;
+max-height: 3.2rem;
+}
+
+
+.center-div {
+
+  display: flex;       
+    align-items: center;
+    justify-content:center; 
+    
+    /* vh refers to viewport height. Very useful! */ 
+    min-height: calc(100vh - 13rem);
+    max-width: 100%;       	
+
+}
+  
+/* --------------------------Classified PART------------------------ */
+
+.classifiedContainer {
+  background-color: rgb(208, 255, 253);
+  width: 100vw;
+  margin-top: 0 !important;
+}
+.classifiedPhoto {
+  width: 200px;
+  margin: 1rem;
+
+}
+
+.classifiedPhotoBig {
+  margin: 2rem;
+  width: 500px;
+}
+
+.lead {
+  text-align: justify;
+}
+
+.for-rent {
+  max-width: 250px;
+  max-height: 250px;
+  width: auto;
+}
+
+
+@media screen and (max-width: 400px) {
+  .classifiedPhoto {
+    visibility: hidden;
+    max-height: 0;
+    max-width: 0;
+  }
+
+  .agency {
+    visibility: hidden;
+    max-height: 0;
+  }
+
+  .search-page-container {
+    display:flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  #classified-navbar {
+    visibility: hidden;
+    max-height: 0;
+  }
+
+  .classified-mobile {
+    visibility:visible;
+    max-height: 100%;
+  }
+
+
+
+}
+
+
+@media screen and (min-width: 400px) {
+  .classifiedPhoto {
+    visibility: hidden;
+    max-height: 0;
+    max-width: 0;
+  }
+
+  .agency {
+    visibility: hidden;
+    max-height: 0;
+  }
+
+  .search-page-container {
+    display:flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  #classified-navbar {
+    visibility: hidden;
+    max-height: 0;
+  }
+
+  .classified-mobile {
+    visibility:visible;
+    max-height: 100%;
+  }
+
+}
+
+@media screen and (min-width: 800px) {
+  .classifiedPhoto {
+    visibility: hidden;
+    max-height: 0;
+    max-width: 0;
+  }
+
+  .agency {
+    visibility: hidden;
+    max-height: 0;
+  }
+
+  .search-page-container {
+    display:flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  #classified-navbar {
+    visibility: hidden;
+    max-height: 0;
+  }
+
+  .classified-mobile {
+    visibility:visible;
+    max-height: 100%;
+  }
+
+
+
+}
+@media screen and (min-width: 992px) {
+  .classifiedPhoto {
+    visibility:visible;
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  .agency {
+    visibility:visible;
+    max-height: 100%;
+  }
+
+  .search-page-container {
+    display:flex !important;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+    align-items: flex-start !important;
+  }
+
+  #classified-navbar {
+    visibility:visible;
+    max-height: 100%;
+  }
+
+  .classified-mobile {
+    visibility:hidden;
+    max-height: 0;
+  }
+
+
+
+}
+@media screen and (min-width: 1200px) {
+  .classifiedPhoto {
+    visibility:visible;
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  .agency {
+    visibility:visible;
+    max-height: 100%;
+  }
+
+  .search-page-container {
+    display:flex !important;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+    align-items: flex-start !important;
+  }
+
+  #classified-navbar {
+    visibility:visible;
+    max-height: 100;
+  }
+
+  .classified-mobile {
+    visibility:hidden;
+    max-height: 0;
+  }
+
+
+}
+
+/* -------------------------------------------------- */
